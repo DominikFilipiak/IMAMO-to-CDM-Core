@@ -1,0 +1,82 @@
+<!-- Authors: M. Kaizner, C. Kloesch, D. Filipiak, T.R. Chhetri, A. Fensel., J. Martinez-Gil
+Part of the paper "Reusable Ontology Alignment for Manufacturing Maintenance". -->
+
+<owl:Class rdf:about="http://www.crema-project.eu/DLP/UC1.owl#Alarm">
+  <equivalentClass rdf:resource="http://www.semanticweb.org/karray/ontologies/2016/0/IMAMO#Alarm"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.example.org/CM/CM_faultontology.owl#Component_Condition">
+  <equivalentClass rdf:resource="http://www.semanticweb.org/karray/ontologies/2016/0/IMAMO#Condition"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.oclc.org/NET/ssnx/ssn#SensingDevice">
+  <equivalentClass rdf:resource="http://www.semanticweb.org/karray/ontologies/2016/0/IMAMO#Sensor"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.loa-cnr.it/ontologies/DUL.owl#Event">
+  <equivalentClass rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.example.org/CM/CM_faultontology.owl#Component_Fault">
+  <equivalentClass rdf:resource="http://www.semanticweb.org/karray/ontologies/2016/0/IMAMO#Alarm"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.example.org/CM/CM_faultontology.owl#Component_Fault">
+  <equivalentClass rdf:resource="http://www.semanticweb.org/karray/ontologies/2016/0/IMAMO#Trouble"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.example.org/CM/CM_faultontology.owl#System_Fault">
+  <equivalentClass rdf:resource="http://www.semanticweb.org/karray/ontologies/2016/0/IMAMO#Failure"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.oclc.org/NET/ssnx/ssn#SensorDataSheet">
+  <equivalentClass rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.example.org/CM/CM_faultontology.owl#Operational_State">
+  <equivalentClass rdf:resource="http://www.semanticweb.org/karray/ontologies/2016/0/IMAMO#MatOnt_000000008"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.example.org/CM/CM_ontology.owl#Component">
+  <equivalentClass rdf:resource="http://www.semanticweb.org/karray/ontologies/2016/0/IMAMO#MatOnt_000000010"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.oclc.org/NET/ssnx/ssn#Sensor">
+  <equivalentClass rdf:resource="http://www.semanticweb.org/karray/ontologies/2016/0/IMAMO#Sensor"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.oclc.org/NET/ssnx/ssn#System">
+  <equivalentClass rdf:resource="http://www.semanticweb.org/karray/ontologies/2016/0/IMAMO#PhysicalEquipment"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.example.org/CM/CM_faultontology.owl#PLC_Signal_Indicator">
+  <equivalentClass rdf:resource="http://www.semanticweb.org/karray/ontologies/2016/0/IMAMO#Data_Information"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.loa-cnr.it/ontologies/DUL.owl#Process">
+  <equivalentClass rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.oclc.org/NET/ssnx/ssn#Property">
+  <equivalentClass rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.example.org/CM/CM_faultontology.owl#Statistical_Fault_Classification">
+  <equivalentClass rdf:resource="http://www.semanticweb.org/karray/ontologies/2016/0/IMAMO#Trouble"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.example.org/CM/CM_statontology.owl#Statistical_Feature">
+  <equivalentClass rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.example.org/CM/CM_statontology.owl#Statistical_Function">
+  <equivalentClass rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.example.org/CM/CM_faultontology.owl#Symptom">
+  <equivalentClass rdf:resource="http://www.semanticweb.org/karray/ontologies/2016/0/IMAMO#Trouble"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.example.org/CM/CM_faultontology.owl#System_Condition">
+  <equivalentClass rdf:resource="http://www.semanticweb.org/karray/ontologies/2016/0/IMAMO#Condition"/>
+</owl:Class>
